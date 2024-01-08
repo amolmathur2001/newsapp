@@ -44,7 +44,7 @@ const Navbar = () => {
                 sports
               </Link>
               <Link to="/technology" className="nav-link">
-                technology
+                techno
               </Link>
             </div>
           </div>
