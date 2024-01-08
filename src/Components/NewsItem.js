@@ -26,7 +26,7 @@ export default function NewsItem(props){
             </a>
             <p class="card-text">
               <small class="text-body-secondary">
-                Last updated by {props.author} on {new Date(props.date).toGMTString()}
+                Last update by {props.author} on {new Date(props.date).toGMTString()}
               </small>
             </p>
           </div>
