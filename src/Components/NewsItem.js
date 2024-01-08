@@ -22,11 +22,11 @@ export default function NewsItem(props){
             <h5 className="card-title">{props.title}</h5>
             <p className="card-text">{props.descripton}</p>
             <a href={props.newsURL} className="btn btn-sm btn-primary">
-              Read More
+              Read 
             </a>
             <p class="card-text">
               <small class="text-body-secondary">
-                Last updated by {props.author} on {new Date(props.date).toGMTString()}
+                Last update by {props.author} on {new Date(props.date).toGMTString()}
               </small>
             </p>
           </div>
